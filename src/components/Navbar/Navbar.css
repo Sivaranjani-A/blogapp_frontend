@@ -1,0 +1,19 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.5);
+  min-height: 5vh;
+  padding: 15px 8px !important;
+}
+
+nav > .flex > .w-full > ul {
+  margin-top: 0 !important;
+}
+
+.userNav:hover {
+  cursor: pointer;
+  background-color: rgb(230, 223, 223);
+  color: #000 !important;
+}

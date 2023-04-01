@@ -1,0 +1,15 @@
+.myBlog_card_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardIcon {
+  display: flex;
+  gap: 20px;
+}
+
+.fa-solid:hover {
+  cursor: pointer;
+  color: red;
+}

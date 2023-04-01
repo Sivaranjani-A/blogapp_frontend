@@ -1,0 +1,50 @@
+.postCard {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.allPost > div > .flex > img {
+  max-width: 100% !important;
+  height: 300px !important;
+  object-fit: cover !important;
+}
+
+.allPostHeader {
+  margin: 25px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.viewBlog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.viewBlog > .viewCard {
+  max-width: 70% !important;
+  height: auto !important;
+  margin-top: 20px !important;
+}
+
+@media (max-width: 580px) {
+  .viewBlog > .viewCard {
+    max-width: fit-content !important;
+  }
+}
+
+.viewBlog > .viewCard > .flex > img {
+  max-width: 100% !important;
+  max-height: 550px !important;
+  object-fit: cover;
+}
+
+.blog_author {
+  font-size: 12px;
+  font-style: italic;
+  width: fit-content;
+}
